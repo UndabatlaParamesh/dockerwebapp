@@ -3,6 +3,8 @@ version: "3"
 services:
  devopsdb:
    image: undabatla/mynewapp:dbimage
+   deploy: 
+     replicas: 2
    ports:
      - "3306:3306"
 
